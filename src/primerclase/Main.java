@@ -12,8 +12,7 @@ package primerclase;
 public class Main {
     public static void main(String[] args) {
         //Crear objeto
-        cancion c1 = new cancion();
-        c1.nombre="Close";
+        cancion c1 = new cancion("Close");
         c1.sonar();
     }
 }
